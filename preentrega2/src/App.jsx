@@ -20,6 +20,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element= {<Layout/>}>
+            <Route index element= {<Home/>}/> 
             <Route path='/productos' element= {<Productos/>}/> 
             <Route path='/tops' element= {<Tops/>}/> 
             <Route path='/bottoms' element= {<Bottoms/>}/> 
@@ -30,17 +31,7 @@ function App() {
         </Routes>
       
       </BrowserRouter>
-
-
-
-      {/* <div>
-        < Navbar/>
-      </div>
-      <div>
-        <h1>
-          < ItemListContainer greeting = "¡Bienvenida a Poch.!" />  
-        </h1>
-      </div>               */}
+      
     </>
   )
 }

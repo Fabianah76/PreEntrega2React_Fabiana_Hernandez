@@ -7,6 +7,7 @@ import Bottoms from '../../paginas/Bottoms';
 import Calzado from '../../paginas/Calzado';
 import Accesorios from '../../paginas/Accesorios';
 import Home from '../../paginas/Home';
+import { Link, Outlet } from 'react-router-dom';
 
 
 function Navbar() {
