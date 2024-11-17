@@ -20,22 +20,22 @@ function Navbar() {
         
             <ul className='navbar-links'>
                 <li className='navbar-item'>
-                    <link to= {"/" } class="button">Home</link>
+                    <Link to= {"/" } className="button">Home</Link> 
                 </li>
                 <li className='navbar-item'>
-                    <link to= {"/productos"} class="button">Todos los productos</link>
+                    <Link to= {"/productos"} className="button">Todos los productos</Link> 
                 </li>
                 <li className='navbar-item'>
-                    <link to= {"/tops"} class="button">Tops</link>
+                    <Link to= {"/tops"} className="button">Tops</Link> 
                 </li>
                 <li className='navbar-item'>
-                    <link to= {"/bottoms"} class="button">Bottoms</link> 
+                    <Link to= {"/bottoms"} className="button">Bottoms</Link>  
                 </li>
                 <li className='navbar-item'>
-                    <link to= {"/calzado"} class="button">Calzado</link> 
+                    <Link to= {"/calzado"} className="button">Calzado</Link>  
                 </li>
                 <li className='navbar-item'>
-                    <link to= {"/accesorios"} class="button">Accesorios</link>
+                    <Link to= {"/accesorios"} className="button">Accesorios</Link> 
                 </li>
             </ul>
 

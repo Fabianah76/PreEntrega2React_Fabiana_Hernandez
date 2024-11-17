@@ -7,6 +7,7 @@ import Tops from "./Tops";
 import Bottoms from "./Bottoms";
 import Calzado from "./Calzado";
 import Accesorios from "./Accesorios";
+import "../App.css"
 
 
 
@@ -23,22 +24,20 @@ function Layout() {
     
             <ul className='navbar-links'>
                 <li className='navbar-item'>
-                    <link to= {"/" } class="button">Home</link>
+                    <Link to= {"/" } className="button">Home</Link>
+                </li>
+                
+                <li className='navbar-item'>
+                    <Link to= {"/tops"} className="button">Tops</Link>
                 </li>
                 <li className='navbar-item'>
-                    <link to= {"/productos"} class="button">Todos los productos</link>
+                    <Link to= {"/bottoms"} className="button">Bottoms</Link>  
                 </li>
                 <li className='navbar-item'>
-                    <link to= {"/tops"} class="button">Tops</link>
+                    <Link to= {"/calzado"} className="button">Calzado</Link>  
                 </li>
                 <li className='navbar-item'>
-                    <link to= {"/bottoms"} class="button">Bottoms</link> 
-                </li>
-                <li className='navbar-item'>
-                    <link to= {"/calzado"} class="button">Calzado</link> 
-                </li>
-                <li className='navbar-item'>
-                    <link to= {"/accesorios"} class="button">Accesorios</link>
+                    <Link to= {"/accesorios"} className="button">Accesorios</Link> 
                 </li>
             </ul>
             <div className='carrito'> 
