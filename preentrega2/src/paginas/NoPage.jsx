@@ -2,7 +2,11 @@
 
 function NoPage() {
   return (
-    <div>NoPage</div>
+    <>
+    <h2>Página no encontrada!</h2>
+    <Link to={"/"}>Volver</Link>
+    </>
+   
   )
 }
 

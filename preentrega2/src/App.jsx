@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import Navbar from './components/navBar/NavBar'
-import ItemListContainer from './components/itemListContainer/ItemListContainer'
 import Home from './paginas/Home'
 import Layout from './paginas/Layout'
 import NoPage from './paginas/NoPage'
@@ -10,6 +7,9 @@ import Tops from './paginas/Tops'
 import Bottoms from './paginas/Bottoms'
 import Calzado from './paginas/Calzado'
 import Accesorios from './paginas/Accesorios'
+//No puedo importar la App.css
+
+
 
 
 
