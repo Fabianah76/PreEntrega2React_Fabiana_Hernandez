@@ -26,6 +26,9 @@ function Layout() {
                 <li className='navbar-item'>
                     <Link to= {"/" } className="button">Home</Link>
                 </li>
+                <li className='navbar-item'>
+                    <Link to= {"/productos" } className="button">Productos</Link>
+                </li>
                 
                 <li className='navbar-item'>
                     <Link to= {"/tops"} className="button">Tops</Link>
