@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom"
-import "./styles.css"
+import "../App.css";
+
 
 
 function Producto({id,nombre,descripcion,precio,imagen}) {
   return (
     <Link to={`/producto/${id}`} className="card">
         <div>
-            {imagen}
+          <img src="{imagen}" alt="" />
         </div>
         <h2>{nombre}</h2>
         <h3>{precio}</h3>

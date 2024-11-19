@@ -1,12 +1,6 @@
 import {Link, Outlet } from "react-router-dom"
 import { FiShoppingCart } from "react-icons/fi";
 import Stack from 'react-bootstrap/Stack';
-import Home from "./Home";
-import Productos from "./Productos";
-import Tops from "./Tops";
-import Bottoms from "./Bottoms";
-import Calzado from "./Calzado";
-import Accesorios from "./Accesorios";
 import "../App.css"
 
 
@@ -19,7 +13,7 @@ function Layout() {
         <div className='navbar'>
     
             <div>
-                <img src="/Poch..png" alt="logoPoch." />
+                <img className="logo" src="/Poch..png" alt="logoPoch." />
             </div>
     
             <ul className='navbar-links'>
@@ -46,7 +40,7 @@ function Layout() {
             <div className='carrito'> 
                 <FiShoppingCart />
                 <span className='badge'>5</span>
-            </div>)
+            </div>
         
         </div>
     </Stack>

@@ -1,6 +1,6 @@
 import todosProductos from "../productos"
 import Producto from "./Producto"
-import "./styles.css"
+import "../App.css"
 
 function Productos() {
   return (
