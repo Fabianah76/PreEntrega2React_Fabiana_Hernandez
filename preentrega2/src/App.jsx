@@ -11,9 +11,6 @@ import DetalleProducto from './paginas/DetalleProducto';
 
 
 
-
-
-
 function App() {
   
   return (

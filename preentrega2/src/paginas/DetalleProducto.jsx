@@ -11,7 +11,7 @@ function DetalleProducto() {
         return <h2>El producto no existe!</h2>
     }
   return (
-    <div>
+    <div className="card">
         <div>
           <img src="{imagen}" alt="" />
         </div>
