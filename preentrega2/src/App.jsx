@@ -8,7 +8,7 @@ import Bottoms from './paginas/Bottoms'
 import Calzado from './paginas/Calzado'
 import Accesorios from './paginas/Accesorios'
 import DetalleProducto from './paginas/DetalleProducto';
-//No puedo importar la App.css
+
 
 
 
