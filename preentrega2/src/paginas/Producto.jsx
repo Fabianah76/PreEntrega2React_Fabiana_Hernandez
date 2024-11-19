@@ -5,7 +5,7 @@ import "../App.css";
 
 function Producto({id,nombre,descripcion,precio,imagen}) {
   return (
-    <Link to={`/producto/${id}`} className="card">
+    <Link to={`/productos/${id}`} className="card">
         <div>
           <img src="{imagen}" alt="" />
         </div>

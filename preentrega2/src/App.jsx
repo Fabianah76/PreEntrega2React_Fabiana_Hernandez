@@ -7,6 +7,7 @@ import Tops from './paginas/Tops'
 import Bottoms from './paginas/Bottoms'
 import Calzado from './paginas/Calzado'
 import Accesorios from './paginas/Accesorios'
+import DetalleProducto from './paginas/DetalleProducto';
 //No puedo importar la App.css
 
 
@@ -26,6 +27,7 @@ function App() {
             <Route path='/bottoms' element= {<Bottoms/>}/> 
             <Route path='/calzado' element= {<Calzado/>}/> 
             <Route path='/accesorios' element= {<Accesorios/>}/> 
+            <Route path="/productos/:id" element={<DetalleProducto/>}/>
             <Route path='*' element= {<NoPage/>}/>
           </Route>
         </Routes>
